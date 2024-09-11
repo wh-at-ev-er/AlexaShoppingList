@@ -26,3 +26,5 @@ If you don't have 2-step verification enable:
 Amazon Password & Secret Key are stored using [Python Keyring](https://pypi.org/project/keyring/)
 
 Amazon Sign-In & Shopping Cart URL should be updated to that of the country you use. 
+
+Google Chrome & matching ChromeDriver need to be present
