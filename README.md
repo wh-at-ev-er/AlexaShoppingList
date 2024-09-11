@@ -8,21 +8,20 @@ Go to the Credentials for your project and create New credentials > OAuth client
 
 **How to get your OTP App Secret from Amazon <YOUR_OTP_APP_SECRET>:**
 If you don't have 2-step verification enable:
-1 - Login to Amazon https://www.amazon.co.uk/
-2 - Go to Your Account => Login & Security and click on "Turn On" under 2-step verification
-3 - Select the Authentication App
-4 - Click on "Can't scan the barcode" and save the Key (13 sets of 4 characters each)
-5 - Remove the spaces of the Key (you will have something like this "ASDMASDFMSKDMKSFMKLASDDADABB6JNRNF7WFEHQW23H238R7843")
+1. Login to Amazon https://www.amazon.co.uk/
+2. Go to Your Account => Login & Security and click on "Turn On" under 2-step verification
+3. Select the Authentication App
+4. Click on "Can't scan the barcode" and save the Key (13 sets of 4 characters each)
+5. Remove the spaces of the Key (you will have something like this "ASDMASDFMSKDMKSFMKLASDDADABB6JNRNF7WFEHQW23H238R7843")
 
-**If you already have 2-step verification enabled via Authenticator App:
-**1 - Login to Amazon https://www.amazon.co.uk/
-2 - Go to Your Account => Login & Security and click on "Manage" under 2-step verification
-3 - Under Authenticator App, click on Add New App
-4 - Click on "Can't scan the barcode" and save the Key (13 sets of 4 characters each)
-5 - Remove the spaces of the Key (you will have something like this "ASDMASDFMSKDMKSFMKLASDDADABB6JNRNF7WFEHQW23H238R7843")
+**If you already have 2-step verification enabled via Authenticator App:**
+1. Login to Amazon https://www.amazon.co.uk/
+2. Go to Your Account => Login & Security and click on "Manage" under 2-step verification
+3. Under Authenticator App, click on Add New App
+4. Click on "Can't scan the barcode" and save the Key (13 sets of 4 characters each)
+5. Remove the spaces of the Key (you will have something like this "ASDMASDFMSKDMKSFMKLASDDADABB6JNRNF7WFEHQW23H238R7843")
 
-**If you already have 2-step verification enabled via SMS please change to Authenticator app and follow the above steps.
-**
+**If you already have 2-step verification enabled via SMS please change to Authenticator app and follow the above steps.**
 
 Amazon Password & Secret Key are stored using [Python Keyring](https://pypi.org/project/keyring/)
 
