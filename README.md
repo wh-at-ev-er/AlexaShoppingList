@@ -1,5 +1,5 @@
 # AlexaShoppingList
-Scrape Alexa Shopping List and sent it to Google Sheets
+Scrape Alexa Shopping List and send it to Google Sheets
 
 **Google Sheets Credentials** 
 Log into the [Google Developers Console](https://console.developers.google.com/) with the Google account whose spreadsheets you want to access. Create (or select) a project and enable the Drive API and Sheets API (under Google Apps APIs).
