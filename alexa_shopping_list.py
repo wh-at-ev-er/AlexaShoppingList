@@ -78,12 +78,12 @@ try:
         found_pwd = False
 
     if found_pwd:
-        driver.find_element(By.ID, 'ap_email').send_keys(amz_login)
+        driver.find_element(By.ID, 'ap_email_login').send_keys(amz_login)
         driver.find_element(By.ID, 'ap_password').send_keys(amz_password)
         driver.find_element(By.ID, 'signInSubmit').click()
     else:
         time.sleep(1)
-        driver.find_element(By.ID, 'ap_email').send_keys(amz_login)
+        driver.find_element(By.ID, 'ap_email_login').send_keys(amz_login)
         driver.find_element(By.ID, 'continue').submit()
         WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.ID, 'ap_password')))
         driver.find_element(By.ID, 'ap_password').send_keys(amz_password)
